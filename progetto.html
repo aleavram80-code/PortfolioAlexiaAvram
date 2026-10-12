@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Case study — Alexia Avram</title>
+  <meta name="description" content="Case study dal portfolio di Alexia Avram, Graphic e Web Designer."/>
+  <meta name="theme-color" content="#0F0F0F"/>
+  <!-- Anteprima link (WhatsApp, LinkedIn, Facebook…). Quando il sito è online, sostituisci
+       "assets/og-image.jpg" con l’indirizzo completo, es. https://tuosito.it/assets/og-image.jpg -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Alexia Avram — Portfolio"/>
+  <meta property="og:locale" content="it_IT"/>
+  <meta property="og:title" content="Progetti — Alexia Avram"/>
+  <meta property="og:description" content="Case study dal portfolio di Alexia Avram, Graphic e Web Designer."/>
+  <meta property="og:url" content="https://aleavram80-code.github.io/PortfolioAlexiaAvram/progetto.html"/>
+  <meta property="og:image" content="https://aleavram80-code.github.io/PortfolioAlexiaAvram/assets/og-image.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Alexia Avram — Graphic &amp; Web Designer"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="https://aleavram80-code.github.io/PortfolioAlexiaAvram/assets/og-image.jpg"/>
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png"/>
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body data-page="case" data-title-key="">
+
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <div class="page-overlay" id="pageOverlay"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a class="nav-logo" href="index.html">Alexia Avram</a>
+    <nav class="nav-links" aria-label="Principale">
+      <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+      <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+      <a href="progetti.html" class="nav-link is-active" data-i18n="nav.work">Progetti</a>
+    </nav>
+    <button class="nav-burger" id="burger" type="button" aria-expanded="false" aria-controls="mobMenu" data-i18n-aria="nav.menu" aria-label="Menu"><span></span><span></span></button>
+  </header>
+
+  <div class="mob-menu" id="mobMenu">
+    <ul>
+      <li><a href="index.html" class="mob-link" data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html" class="mob-link" data-i18n="nav.about">About</a></li>
+      <li><a href="progetti.html" class="mob-link is-active" data-i18n="nav.work">Progetti</a></li>
+    </ul>
+  </div>
+
+  <main id="main">
+    <div id="case"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span data-year>2026</span> Alexia Avram</span>
+      <span data-i18n-html="footer.role">Graphic &amp; Web Designer</span>
+      <a href="#" data-top data-i18n="footer.top">Torna su ↑</a>
+    </div>
+  </footer>
+
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Galleria">
+    <div class="lb-top">
+      <div><span class="lb-tags"></span><span class="lb-title"></span></div>
+      <button class="lb-close" type="button" data-i18n-aria="lb.close" aria-label="Chiudi">✕</button>
+    </div>
+    <div class="lb-stage">
+      <button class="lb-arrow lb-arrow--prev" type="button" data-i18n-aria="lb.prev" aria-label="Immagine precedente">←</button>
+      <button class="lb-arrow lb-arrow--next" type="button" data-i18n-aria="lb.next" aria-label="Immagine successiva">→</button>
+    </div>
+    <div class="lb-bottom">
+      <p class="lb-desc"></p>
+      <span class="lb-count"></span>
+      <div class="lb-thumbs"></div>
+    </div>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
